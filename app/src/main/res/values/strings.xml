@@ -1,0 +1,107 @@
+<resources>
+    <!--API Key-->
+    <string name="api_key">AIzaSyDFY93pN8lV4j0B6dV6W4pP4lOQam2KmWk</string>
+
+
+    <string name="app_name">ASS</string>
+    <string name="app_complete_name">Auto Swift System</string>
+
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+
+    <!--Menu labels -->
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Navigation drawer labels -->
+    <string name="driver_information">Driver Information</string>
+    <string name="edit_driver_information">Edit Driver Information</string>
+    <string name="taxi_information">Taxi Information</string>
+    <string name="rental_information">Rental Information</string>
+    <string name="reminder">Reminder</string>
+    <string name="history">Payment History</string>
+    <string name="logout">Logout</string>
+
+    <!--Labels -->
+    <!--Change password -->
+    <string name="label_welcome">Welcome</string>
+    <string name="label_change_password">CHANGE PASSWORD</string>
+    <string name="label_new_password">Enter your new password</string>
+    <string name="label_new_password_again">Enter your new password again</string>
+    <string name="label_submit">SUBMIT</string>
+    <!--Driver information -->
+    <string name="label_basic_information">Basic Information</string>
+    <string name="label_first_name">First name</string>
+    <string name="label_middle_name">Middle name</string>
+    <string name="label_last_name">Last name</string>
+    <string name="label_others">Others</string>
+    <string name="label_driver_license_number">Driver license #</string>
+    <string name="label_complete_address">Unit #, Street, Barangay, Town, City, Province</string>
+    <string name="label_contact_no">Contact number</string>
+    <string name="label_emergency_no">In case of emergency, please call</string>
+
+    <!--Taxi information -->
+    <string name="label_plate_number">Plate #</string>
+    <string name="label_brand">Brand</string>
+    <string name="label_change_oil_date">Last change oil date</string>
+
+    <!--Rental information -->
+    <string name="label_trip_summary">RENTAL TRIP SUMMARY</string>
+    <string name="label_taxi_number">Taxi #</string>
+    <string name="label_rental_date">Rental date</string>
+
+    <!--Reminder -->
+    <string name="label_date_sent">Date sent:</string>
+
+    <!--Payment history -->
+    <string name="label_rental_payment">Rental Payment</string>
+    <string name="label_rental">Rental</string>
+    <string name="label_payment">payment</string>
+    <string name="label_rental_duration">No. of days</string>
+
+    <!--No rental -->
+    <string name="label_sorry">Sorry you doesn\'t rented a taxi.</string>
+    <string name="label_go_to_owner">Please go to the owner to rent one.</string>
+
+    <!-- Dialog labels -->
+    <string name="label_yes">YES</string>
+    <string name="label_no">NO</string>
+
+    <string name="label_take_photo">Take photo</string>
+    <string name="label_select_from_gallery">Select from Gallery</string>
+
+    <!--Toast labels -->
+    <string name="label_driver_information_updated">Driver information updated</string>
+    <string name="label_please_check_internet_connection">Please check your internet connection!</string>
+    <string name="label_please_cant_connect_to_server">Cant connect to server!</string>
+    <string name="label_incorrect_email_or_password">Incorrect email or password!</string>
+    <string name="label_gps_not_available">GPS is currently unavailable!</string>
+
+    <!-- Default values -->
+    <string name="default_full_name">Kelly D. Murphy</string>
+    <string name="default_address">8559 S. John Street Crown Point, IN 46307</string>
+    <string name="default_email_address">kmurphy@gmail.com</string>
+
+    <string name="default_contact_no">(735) 488-0107</string>
+    <string name="default_emergency_no">(862) 698-9486</string>
+    <string name="default_license_no">DO6-11-009385</string>
+
+    <string name="default_taxi_id">#SKL385</string>
+    <string name="default_plate_number">282 YYY</string>
+    <string name="default_brand">Toyota Vios</string>
+    <string name="default_change_oil_date">January 25, 2017</string>
+
+    <string name="default_rental_from_to">JANUARY 25, 2017 - JANUARY 30, 2017</string>
+    <string name="default_rental_from">01/25/17</string>
+    <string name="default_rental_to">01/31/17</string>
+    <string name="default_rental_duration">1</string>
+    <string name="default_payment">P1000</string>
+
+    <string name="default_reminder_title">TRAFFIC</string>
+    <string name="default_reminder_message">Sample message</string>
+    <string name="default_reminder_date">January 25, 2017</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

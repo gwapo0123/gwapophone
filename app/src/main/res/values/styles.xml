@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomTheme" parent="MaterialDrawerTheme.Light">
+
+        <!--Theme -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Navigation drawer -->
+        <item name="material_drawer_background">@color/colorBackground</item>
+        <!--Primary item -->
+        <item name="material_drawer_primary_text">@color/colorAccent</item>
+        <!--Primary item icon -->
+        <item name="material_drawer_primary_icon">@color/colorAccent</item>
+        <!--Secondary item -->
+        <item name="material_drawer_secondary_text">@color/material_drawer_secondary_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <!--Divider -->
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <!--Navigation drawer selected -->
+        <item name="material_drawer_selected">@color/material_drawer_selected</item>
+        <!--Navigation drawer primary item selected -->
+        <item name="material_drawer_selected_text">@color/material_drawer_primary_text</item>
+        <!--Header -->
+        <item name="material_drawer_header_selection_text">@color/colorAccent</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:showDividers="middle"
+        android:divider="@drawable/divider"
+        android:orientation="horizontal">
+        <!--Taxi # -->
+        <TextView
+            android:id="@+id/rowTaxiNumber"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/default_taxi_id"
+            android:textAlignment="center"
+            android:textColor="@color/accent"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+       <LinearLayout
+           android:layout_width="20dp"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_weight="2"
+           >
+           <!--Rental date from -->
+           <TextView
+               android:id="@+id/rowRentalDateFrom"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="@string/default_rental_from"
+               android:textAlignment="center"
+               android:textColor="@color/accent" />
+           <!--Rental date from -->
+           <TextView
+               android:id="@+id/rowRentalDateTo"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="@string/default_rental_to"
+               android:textAlignment="center"
+               android:textColor="@color/accent" />
+       </LinearLayout>
+        <!--Rental date range -->
+        <TextView
+            android:id="@+id/rowRentalDuration"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/default_rental_duration"
+            android:textAlignment="center"
+            android:textColor="@color/accent" />
+        <!--Rental total payment -->
+        <TextView
+            android:id="@+id/rowRentalPayment"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/default_payment"
+            android:textAlignment="center"
+            android:textColor="@color/accent" />
+    </LinearLayout>
+</RelativeLayout>

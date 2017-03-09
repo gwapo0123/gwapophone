@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/colorBackground"
+    android:divider="@drawable/divider"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:showDividers="middle"
+    tools:context="com.shemchavez.ass.Fragment.ChooseImageDialogFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            app:iiv_color="@color/colorAccent"
+            app:iiv_icon="@string/gmd_camera_alt" />
+
+        <TextView
+            android:id="@+id/tvChooseImageTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/label_take_photo"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            app:iiv_color="@color/colorAccent"
+            app:iiv_icon="@string/gmd_photo" />
+
+        <TextView
+            android:id="@+id/tvChooseImageSelectFromGallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/label_select_from_gallery"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="com.shemchavez.ass.Fragment.TaxiInformationDialogFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="15dp">
+
+                <!-- Taxi image -->
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/dialogCITaxiImage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true" />
+                <!--Taxi ID -->
+                <TextView
+                    android:id="@+id/dialogTVTaxiID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dialogCITaxiImage"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:editable="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <!--Basic information -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/md_white_1000"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_basic_information"
+                        android:textColor="@color/colorAccent" />
+                    <!-- Plate number -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <!--Plate number icon -->
+                        <com.mikepenz.iconics.view.IconicsImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginRight="10dp"
+                            android:foregroundGravity="center_vertical"
+                            app:iiv_color="@color/colorAccent"
+                            app:iiv_icon="@string/gmd_branding_watermark" />
+                        <!--Plate number detail -->
+                        <TextView
+                            android:id="@+id/dialogTVTaxiPlateNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:editable="false"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                    <!-- Plate number label -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="@string/label_plate_number"
+                        android:textSize="10dp" />
+                    <!-- Brand -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+                        <!-- Brand icon -->
+                        <com.mikepenz.iconics.view.IconicsImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginRight="10dp"
+                            android:foregroundGravity="center_vertical"
+                            app:iiv_color="@color/colorAccent"
+                            app:iiv_icon="@string/gmd_drive_eta" />
+                        <!-- Brand detail -->
+                        <TextView
+                            android:id="@+id/dialogTVTaxiBrand"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:editable="false"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                    <!-- Brand label -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="@string/label_brand"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!--Global -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/md_white_1000"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_others"
+                        android:textColor="@color/colorAccent" />
+                    <!-- Change oil date -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <!--Change oil date icon -->
+                        <com.mikepenz.iconics.view.IconicsImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginRight="10dp"
+                            android:foregroundGravity="center_vertical"
+                            app:iiv_color="@color/colorAccent"
+                            app:iiv_icon="@string/gmd_date_range" />
+                        <!-- Change oil date detail -->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:id="@+id/dialogTVTaxiLastChangeOilDate"
+                            android:editable="false"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                    <!-- Change oil date label -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="@string/label_change_oil_date"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
